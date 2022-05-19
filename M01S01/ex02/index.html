@@ -8,21 +8,54 @@
     content="width=device-width, initial-scale=1.0"
   >
   <title>Calculator suprafete</title>
-
   <link
     rel="stylesheet"
     href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
   >
-
   <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab-top.js"></script>
 </head>
 
 <body>
+  <form
+    class="surface-form"
+    action=""
+  >
+    <fieldset>
+      <legend>Calculator Suprafata Dreptunghi</legend>
 
+      <label for="length">Lungime:</label>
+      <input
+        type="text"
+        name="length"
+        id="length"
+        placeholder="Lungime"
+      >
+
+      <br> <br>
+
+      <label for="width">Latime:</label>
+      <input
+        type="text"
+        name="width"
+        id="width"
+        placeholder="Latime"
+      >
+
+      <br> <br>
+
+      <button
+        type="submit"
+        title="Calculeaza"
+      >Calculeaza</button>
+
+      <p>
+        Rezultat: <span id="result"></span>
+      </p>
+    </fieldset>
+  </form>
 
 
   <script src="app.js"></script>
-
   <div
     class="pixeltab-host"
     id="js01-01-02"
